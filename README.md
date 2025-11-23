@@ -2,8 +2,10 @@
 
 ## Live Demo
 
-- **Frontend:** _link_
-- **Backend (API):** _link_
+## Live Demo
+
+- **Frontend:** https://human-resource-management-system-hrms-kx91.onrender.com
+- **Backend (API):** https://backend-human-resource-management-system.onrender.com/api/health
 
 ---
 
