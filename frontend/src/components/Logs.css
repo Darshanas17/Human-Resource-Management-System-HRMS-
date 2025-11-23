@@ -1,0 +1,119 @@
+.logs-table {
+  width: 100%;
+}
+
+.logs-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  gap: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: bold;
+  color: #333;
+}
+
+.logs-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  gap: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #dee2e6;
+  align-items: start;
+}
+
+.logs-row:hover {
+  background: #f8f9fa;
+}
+
+.logs-row:last-child {
+  border-bottom: none;
+}
+
+.action-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.action-organisation_created {
+  background: #d4edda;
+  color: #155724;
+}
+
+.action-user_login {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.action-employee_created {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.action-employee_updated {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.action-employee_deleted {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.action-team_created {
+  background: #cce7ff;
+  color: #004085;
+}
+
+.action-employee_assigned {
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+.action-employee_unassigned {
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+.meta-cell {
+  font-size: 12px;
+}
+
+.meta-item {
+  margin-bottom: 2px;
+}
+
+.meta-item:last-child {
+  margin-bottom: 0;
+}
+
+.time-cell {
+  font-size: 12px;
+  color: #666;
+}
+
+.user-cell {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .logs-header,
+  .logs-row {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .logs-header {
+    display: none;
+  }
+
+  .logs-row {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+}
