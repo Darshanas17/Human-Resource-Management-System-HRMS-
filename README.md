@@ -15,6 +15,17 @@ This application is a lightweight system designed to manage users, employees, te
 
 ---
 
+## Login Credentials
+
+### Organisation 1 – Tech Solutions Inc.
+- **Email:** admin@techsolutions.com  
+- **Password:** admin123
+
+### Organisation 2 – Marketing Pro Ltd.
+- **Email:** admin@marketingpro.com  
+- **Password:** admin123
+---
+
 ## Repository Setup
 
 ### Clone the Repository
